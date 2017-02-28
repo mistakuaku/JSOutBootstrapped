@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+<!--Edited by Patrick McGee-->
 <html>
+
   <head>
     <meta charset="UTF-8">
     <title>Demonstrating JavaScript</title>
@@ -11,16 +13,17 @@
         document.getElementById("hello").innerHTML = "Hiya, buddy!";
       }
       function sayGoodbye(){
-        document.getElementById("goodbye").innerHTML = "See ya!";
+        document.getElementById("goodbye").innerHTML = "Smell ya later!";
       }
     </script>
   </head>
+
   <body>
     <div class="container-fluid">
       <button type="button" class="btn btn-default" onclick="sayHello();">
         Sign in
       </button>
-      <button type="button" class="btn btn-default">
+      <button type="button" class="btn btn-default" onclick="sayGoodbye();">
         Sign out
       </button>
       <div class="alert alert-success" role="alert" id="hello">
